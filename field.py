@@ -37,24 +37,7 @@ class Field:
     def field(self):
         return self._field
 
-    # @field.setter
-    # def field(self, positions):
-    #     if Field._checkPosition(self, positions):
-    #         for position in positions:
-    #             self._field[position[0]][self.correct_coord[str(position[1])]] = self.icon_ship
-    #     else:
-    #         print('hren')
-
-
-    # def _checkPosition(self, positions):
-    #     result = []
-    #     for position in positions:
-    #         if self._field[position[0]][self.correct_coord[str(position[1])]] != self.icon_ship:
-    #             result.append(True)
-    #         else:
-    #             result.append(False)
-    #     return True if all(result) else False
-
+    
 
     def __getPosition(self):
         return
