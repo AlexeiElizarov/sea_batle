@@ -42,9 +42,6 @@ def game(field_our, field_opponent):
                 see_fields(field_our, field_opponent)
             except:
                 print('Введите два числа (1,2,3,4,5 или 6)')
-
-
-
         check_win(field_opponent)
 
 def main():
